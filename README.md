@@ -14,13 +14,12 @@ This is a demo on how to use Ember.js with [Ember.SimpleAuth](https://github.com
 Only a couple of steps:
 
 ```
-git clone git@github.com:ugisozols/ember-simple-auth-rails-demo.git
 bundle install
 rake db:migrate
 rake db:seed
 ```
 
-And that's it. Now launch `rails server` and open http://127.0.0.1:3000. You can
+ You can
 login with the following credentials:
 
 ```
@@ -30,5 +29,15 @@ password: password
 
 #### Test
 
-The example includes a sample integration test (see `test/javascripts/integration/login_test.js`). Start the server
-and open http://127.0.0.1:3000/qunit to run the test.
+The example includes a sample integration test (see `test/javascripts/integration/login_test.js`)
+
+### gems used (additional)
+gem "thin"
+gem "quiet_assets"
+
+gem 'ember-rails'
+gem 'ember-source', '~> 1.4.0'
+
+gem 'qunit-rails'
+
+
