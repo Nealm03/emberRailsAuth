@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.4'
+gem 'rails', '6.0.3.5'
 gem 'sqlite3'
 
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', '~> 5.0.8'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem "thin"
 gem "quiet_assets"
 
-gem 'ember-rails'
+gem 'ember-rails', '>= 0.14.1'
 gem 'ember-source', '~> 1.4.0'
 
-gem 'qunit-rails'
+gem 'qunit-rails', '>= 0.0.7'
