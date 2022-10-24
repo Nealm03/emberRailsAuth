@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '6.0.3.5'
 gem 'sqlite3'
 
-gem 'sass-rails', '~> 5.0.8'
+gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '>= 4.0.1'
 
