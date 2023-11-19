@@ -10,7 +10,7 @@ gem 'jquery-rails', '>= 4.0.1'
 gem "thin"
 gem "quiet_assets"
 
-gem 'ember-rails', '>= 0.14.1'
-gem 'ember-source', '~> 1.4.0'
+gem 'ember-rails', '>= 0.15.0'
+gem 'ember-source', '~> 1.10.0'
 
 gem 'qunit-rails', '>= 0.0.7'
